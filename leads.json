@@ -1,0 +1,12 @@
+[
+  {
+    "email": "test@praetor.lat",
+    "domain": "example.com",
+    "report_id": "TEST_980043",
+    "plan": "express",
+    "status": "paid",
+    "created_at": "2026-07-12T08:50:36.915245",
+    "paid_date": "2026-07-12T08:50:37.124533",
+    "pdf_file": "REPORT_TEST_980043.pdf"
+  }
+]
