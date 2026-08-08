@@ -1,0 +1,16 @@
+project_id             = "your-gcp-project-id"
+region                 = "us-central1"
+service_name           = "praetor-intelligence"
+artifact_repository_id = "praetor-intelligence"
+allow_unauthenticated  = false
+
+# Replace this after publishing your first application image to Artifact Registry.
+container_image = "us-docker.pkg.dev/cloudrun/container/hello"
+
+environment_variables = {
+  APP_ENV = "production"
+}
+
+secret_names = [
+  "praetor-intelligence-api-key"
+]
